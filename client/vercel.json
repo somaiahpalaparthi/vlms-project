@@ -5,7 +5,7 @@
       "destination": "https://vlms-project.onrender.com/api/:path*"
     },
     {
-      "source": "/((?!api/|_next/|_static/|[\\w-]+\\.\\w+).*)"",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
